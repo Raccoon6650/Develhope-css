@@ -1,4 +1,24 @@
 nav
-{background-color: green;}
+{
+    background-color: green;
+    color: crimson;
+}
+
+div
+{
+    color: blue;
+}
+h1
+{
+    color: green;
+}
+label
+{
+    color: red;
+}
+
 footer
-{background-color: green;} 
+{
+    background-color: green;
+    color: black;
+} 
