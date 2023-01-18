@@ -1,10 +1,23 @@
-body {
-    background-color: #011212;
+:root 
+{
+    --colore1:#011212;
+    --raggio-sfera: 100px;
+    --colore2: #ff8800;
+    --raggio-bordo: 50px; 
 }
 
-.ball {
-    width: 100px;
-    height: 100px;
-    background-color: #ff8800;
-    border-radius: 50px;
+
+body
+{
+    background-color:var(--colore1);
+}
+
+
+
+.ball
+{
+    width: var(--raggio-sfera);
+    height: var(--raggio-sfera) ;
+    background-color: var(--colore2);
+    border-radius: var(--raggio-bordo); 
 }
