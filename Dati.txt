@@ -1,0 +1,11 @@
+selettore               Un selettore può essere un qualunque elemento html (un tag, un #id, un name o una .class) e si applicherà a tutto ciò che corrisponde ad esso
+{
+    property: value ;
+    property2: value2;      un comando può avere tutte le propietà che vogliamo inserire
+    propertyN: valueN !important;       l'aggiunta di "!important" da la priorità al comando che non subirà l'effetto a cascata (può  causare bug)
+
+    color: nome o codice del colore             questo colore sarà relativo al testo
+    background-color: nome o codice del colore  questo colore sarà relativo allo sfondo
+    text-align: center                          questo fornisce l'allineamento del testo (l'esempio è centrale)
+
+}
