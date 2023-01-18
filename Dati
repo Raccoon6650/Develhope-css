@@ -1,6 +1,0 @@
-selettore               Un selettore può essere un qualunque elemento html (un tag, un id, un name o una class) e si applicherà a tutto ciò che corrisponde ad esso
-{
-    property: value ;
-    property2: value2;      un comando può avere tutte le propietà che vogliamo inserire
-    propertyN: valueN;
-}
