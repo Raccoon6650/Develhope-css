@@ -1,0 +1,16 @@
+div{
+    inline-size: 200px;
+    margin: 0%;
+    border: 1px solid gray;
+}
+
+.txt{
+    border-bottom: 1px solid gray;
+    display: flex; /*gestisce la visibilità*/
+    align-items: center; /*posiziona il tutto al centro della zona*/
+    justify-content: space-around; /*gestisce gli spazi*/
+}
+
+a{
+    border: none;
+}
