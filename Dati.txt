@@ -15,3 +15,6 @@ selettore               Un selettore può essere un qualunque elemento html (un 
 {
     i comandi agiscono solo se siamo sulla sezione
 }
+
+padding: numero; segna la distanza dalla "parete"
+overflow: scroll; inserisce la possibilità di scorrere il testo in caso non rientri nei margini
