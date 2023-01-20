@@ -1,4 +1,4 @@
-div{
+ section{
     inline-size: 200px;
     margin: 0%;
     border: 1px solid gray;
@@ -6,11 +6,23 @@ div{
 
 .txt{
     border-bottom: 1px solid gray;
+    margin-block-end: 0px;
+
+}
+
+.centro{
+    text-align: center;
+}
+
+.dati {
+    border-bottom: 1px solid gray;
+}
+
+.link {
     display: flex; /*gestisce la visibilità*/
     align-items: center; /*posiziona il tutto al centro della zona*/
     justify-content: space-around; /*gestisce gli spazi*/
-}
-
-a{
-    border: none;
+    border-top: none;
+    margin-block-start: 1px;
+    margin-block-end: 1px;
 }
