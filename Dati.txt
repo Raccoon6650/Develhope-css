@@ -7,5 +7,11 @@ selettore               Un selettore può essere un qualunque elemento html (un 
     color: nome o codice del colore             questo colore sarà relativo al testo
     background-color: nome o codice del colore  questo colore sarà relativo allo sfondo
     text-align: center                          questo fornisce l'allineamento del testo (l'esempio è centrale)
+    font-size: 1.5rem                           il rem è in percentuale ed è consigliato
+}
 
+
+:hover 
+{
+    i comandi agiscono solo se siamo sulla sezione
 }

@@ -1,0 +1,64 @@
+nav {
+    background-color:black ;
+    height: 60px;
+    width: 100%;
+    display: flex; /*gestisce la visibilità*/
+    align-items: center; /*posiziona il tutto al centro della zona*/
+    justify-content: space-around; /*gestisce gli spazi*/
+}
+/*margin: 0  0 0 0 prende 2 o 4 valori */
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.margin {
+    margin: 0 10px;
+  }
+
+.list{
+    position: relative;
+    cursor: pointer;
+    color: white;
+}
+
+ul{
+    display: none;
+    cursor: pointer;
+    position:absolute;
+    z-index: 1;
+    list-style-type: none;
+    margin: 0%;
+    top: 100%;
+    right: 0%;
+    
+}
+.list:hover ul {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.elemento{
+    color: white;
+    background-color: black;
+    border: 2px  solid green;
+    margin: 2 2;
+}
+
+.button{
+    background-color:  black;
+    color: green;
+}
+
+.ricerca{
+    border: solid green;
+    color : green;
+    margin: color green;
+}
+
+.button:hover{
+    color: white;
+    background-color: green;
+}
