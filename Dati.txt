@@ -9,3 +9,6 @@ selettore               Un selettore può essere un qualunque elemento html (un 
     text-align: center                          questo fornisce l'allineamento del testo (l'esempio è centrale)
 
 }
+
+display: flex;
+flex-wrap: wrap;  gli oggetti non si schiacciano ma si spostano
