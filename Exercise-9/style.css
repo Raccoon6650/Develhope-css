@@ -1,0 +1,60 @@
+body{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+
+}
+.cat{
+    display: grid;
+    
+    border-radius: 10px ;
+    background-image: linear-gradient(to right, rgb(140, 135, 135) , rgb(230, 226, 226));
+    height:auto;
+    width: auto;
+}
+
+.testa{
+    display: grid;
+}
+.name{
+    color: black;
+    display:grid;
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+.user{
+    border-radius: 50px;
+    display:grid;
+    grid-column: 1/4;
+    grid-row: 1/3;
+}
+.data{
+    color: white;
+    display:grid;
+    grid-column: 2/4;
+    grid-row: 2/3;
+    
+}
+
+.coda{
+    margin: 5px 20px;
+}
+.catimm {
+    display: grid;
+    align-items: center;
+    margin: 0;
+}
+
+@media (max-width: 768px){
+    body{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 375px){
+    body{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}

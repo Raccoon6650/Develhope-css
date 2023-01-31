@@ -18,3 +18,7 @@ selettore               Un selettore può essere un qualunque elemento html (un 
 
 padding: numero; segna la distanza dalla "parete"
 overflow: scroll; inserisce la possibilità di scorrere il testo in caso non rientri nei margini
+
+display: flex;
+flex-wrap: wrap;  gli oggetti non si schiacciano ma si spostano
+
