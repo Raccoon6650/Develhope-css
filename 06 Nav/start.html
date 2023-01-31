@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+          name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta property="description" content=" Test NavBar"/>
+        <meta property="og:locale" content="en_US"/>
+        <meta property="og:blog_name" content="Test"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta property="og:title" content="HTML Lesson"/>
+        <meta property="og:type" content="NavBar"/>
+        <meta property="author" content="Mario Caruso">
+        <link rel="stylesheet" href="style/style.css">
+    </head>
+
+    <body>
+        <nav>
+            <a href="">NavBar</a>
+            <a href="https://www.google.com">Home</a>
+            <div class="list margin">Dropdown
+                <ul>
+                    <li><a class="elemento" href="https://www.youtube.com">element</a></li>
+                    <li><a class="elemento" href="https://www.netflix.com/browse">element2</a></li>
+                    <li><a class="elemento" href="https://github.com">element3</a></li>
+                    <li><a class="elemento" href="https://www.epicgames.com/site/it/home?sessionInvalidated=true">element4</a></li>
+                </ul>
+            </div> 
+                <button class="button"> <a href="https://discord.com">Disabled</a></button> <!--A quanto sto capendo per disattivare questo elemento devo intervenire attraverso css, se c'è un modo con html, non l'ho trovato/capito-->
+            <form class="ricerca" method="post" action="">
+                <label for="search"></label>
+                <input type="text" name="search"  placeholder="Search">
+                <input class="button" id="search" type="submit" value="Search">
+            </form>
+        </nav>
+    </body>
+</html>
